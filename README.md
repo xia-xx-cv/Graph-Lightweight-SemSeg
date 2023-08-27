@@ -1,11 +1,12 @@
 # Graph-Lightweight-SemSeg
-A Graph-involved Lightweight Semantic Segmentation Network
+A Graph-involved Lightweight Semantic Segmentation Network: GLNet.
+
+Run ```cityscapes_train.py``` for training and ```cityscapes_eval.py``` for inference.
 
 Results on Cityscapes val set
 | Methods| Resolutions | mIoU(%) | Params |
 | :-----| :----: | :----: | :----: |
 | ENet | $2048\times1024$ | 58.3 | 0.4 |
-| SegNet | $2048\times1024$ | 57.0 | 29.5 |
 | ESPNetv1 | $2048\times1024$ | 60.3 | 0.4 |
 | CGNet | $2048\times1024$ | 63.5 | 0.5 |
 | Lightset-Shuffle | $2048\times1024$ | 66.1 | 3.5 |
@@ -24,4 +25,4 @@ Visualization on Cityscapes val set.
 Xue Xia, Jiayu You, Yuming Fang. A Graph-involved Lightweight Semantic Segmentation Network. PRCV2023, Accepted.
 ```
 
-This work was inspired by ```[CGNet: A Light-weight Context Guided Network for Semantic Segmentation](https://github.com/wutianyiRosun/CGNet.)``` and ```[Dual Graph Convolutional Network for Semantic Segmentation](https://github.com/lxtGH/GALD-DGCNet)```
+This work was inspired by [CGNet: A Light-weight Context Guided Network for Semantic Segmentation](https://github.com/wutianyiRosun/CGNet.) and [Dual Graph Convolutional Network for Semantic Segmentation](https://github.com/lxtGH/GALD-DGCNet).
