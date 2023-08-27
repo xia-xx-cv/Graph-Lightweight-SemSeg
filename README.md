@@ -1,7 +1,7 @@
 # Graph-Lightweight-SemSeg
 A Graph-involved Lightweight Semantic Segmentation Network: GLNet.
 
-Run ```cityscapes_train.py``` for training and ```cityscapes_eval.py``` for inference.
+Run ```cityscapes_train.py``` for training and ```cityscapes_eval.py``` for inference. The experiments were conducted on Ubintu OS with an RTX 4090 GPU, it might needs some modification for running the codes on Windows OS. Besides, the well-trained weight is stored as ```/checkpoint/cityscapes/modelbest.pth```.
 
 Results on Cityscapes val set
 | Methods| Resolutions | mIoU(%) | Params |
