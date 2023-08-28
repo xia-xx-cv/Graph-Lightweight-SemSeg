@@ -6,8 +6,7 @@ Run ```cityscapes_train.py``` for training and ```cityscapes_eval.py``` for infe
 Results on Cityscapes val set
 | Methods| Resolutions | mIoU(%) | Params |
 | :-----| :----: | :----: | :----: |
-| ENet | $2048\times1024$ | 58.3 | 0.4 |
-| ESPNetv1 | $2048\times1024$ | 60.3 | 0.4 |
+| ESPNetv1 | $1024\times512$ | 61.4 | 0.4 |
 | CGNet | $2048\times1024$ | 63.5 | 0.5 |
 | Lightset-Shuffle | $2048\times1024$ | 66.1 | 3.5 |
 | DGCNet(Res101) | $2048\times1024$ | 80.5 | 72.5 |
