@@ -20,8 +20,21 @@ Results on Cityscapes val set
 Visualization on Cityscapes val set.
 <img src="Visualization.png" style="width:80%;height:auto;">
 
+[paper]{https://link.springer.com/chapter/10.1007/978-981-99-8540-1_30}
 ```
-Xue Xia, Jiayu You, Yuming Fang. A Graph-involved Lightweight Semantic Segmentation Network. PRCV2023, Accepted.
+@InProceedings{10.1007/978-981-99-8540-1_30,
+author="Xia, Xue
+and You, Jiayu
+and Fang, Yuming",
+title="A Graph-Involved Lightweight Semantic Segmentation Network",
+booktitle="Pattern Recognition and Computer Vision",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="372--383",
+doi="10.1007/978-981-99-8540-1_30",
+isbn="978-981-99-8540-1"
+}
 ```
 
 This work was inspired by [CGNet: A Light-weight Context Guided Network for Semantic Segmentation](https://github.com/wutianyiRosun/CGNet.) and [Dual Graph Convolutional Network for Semantic Segmentation](https://github.com/lxtGH/GALD-DGCNet).
