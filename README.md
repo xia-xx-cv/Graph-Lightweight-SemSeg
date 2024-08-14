@@ -20,7 +20,7 @@ Results on Cityscapes val set
 Visualization on Cityscapes val set.
 <img src="Visualization.png" style="width:80%;height:auto;">
 
-[paper]{https://link.springer.com/chapter/10.1007/978-981-99-8540-1_30}
+[paper](https://link.springer.com/chapter/10.1007/978-981-99-8540-1_30)
 ```
 @InProceedings{10.1007/978-981-99-8540-1_30,
 author="Xia, Xue
